@@ -14,6 +14,7 @@
 		509372641B843D6500050CF7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 509372621B843D6500050CF7 /* LaunchScreen.xib */; };
 		509372701B843D6500050CF7 /* LifeCycleDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093726F1B843D6500050CF7 /* LifeCycleDemoTests.swift */; };
 		5093727A1B843F8600050CF7 /* SubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509372791B843F8600050CF7 /* SubViewController.swift */; };
+		5093727C1B844DC100050CF7 /* FooViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5093727B1B844DC100050CF7 /* FooViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		5093726E1B843D6500050CF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5093726F1B843D6500050CF7 /* LifeCycleDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeCycleDemoTests.swift; sourceTree = "<group>"; };
 		509372791B843F8600050CF7 /* SubViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubViewController.swift; sourceTree = "<group>"; };
+		5093727B1B844DC100050CF7 /* FooViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FooViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				5093725B1B843D6500050CF7 /* MainViewController.swift */,
 				509372791B843F8600050CF7 /* SubViewController.swift */,
+				5093727B1B844DC100050CF7 /* FooViewController.swift */,
 				5093725D1B843D6500050CF7 /* Main.storyboard */,
 				509372571B843D6500050CF7 /* Supporting Files */,
 			);
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5093727A1B843F8600050CF7 /* SubViewController.swift in Sources */,
+				5093727C1B844DC100050CF7 /* FooViewController.swift in Sources */,
 				5093725C1B843D6500050CF7 /* MainViewController.swift in Sources */,
 				5093725A1B843D6500050CF7 /* AppDelegate.swift in Sources */,
 			);
